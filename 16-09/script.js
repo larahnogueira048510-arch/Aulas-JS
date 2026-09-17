@@ -118,7 +118,7 @@
 let valor = 350;
 let deconto = 20;
 
-if (valor >= 500) {
+if (valor > 500) {
     console.log(valor - 20 );
 } else {
     console.log("SEM DESCONTO");
